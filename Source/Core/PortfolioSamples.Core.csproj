@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
+    <Platform Condition="'$(Platform)' == ''">AnyCPU</Platform>
+    <ProjectGuid>{3AFA172B-2026-4450-8110-131422334455}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>PortfolioSamples.Core</RootNamespace>
+    <AssemblyName>PortfolioSamples.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <OutputPath>..\..\</OutputPath>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuration\SampleSettings.cs" />
+    <Compile Include="Configuration\SettingsStore.cs" />
+    <Compile Include="Conversion\ConversionException.cs" />
+    <Compile Include="Conversion\RetryPolicy.cs" />
+    <Compile Include="Currency\CurrencyCodeMapper.cs" />
+    <Compile Include="Logging\SafeLog.cs" />
+    <Compile Include="Mes\CircuitBreaker.cs" />
+    <Compile Include="Mes\CircuitBreakerOptions.cs" />
+    <Compile Include="Mes\CircuitBreakerState.cs" />
+    <Compile Include="Mes\MesFailureCategory.cs" />
+    <Compile Include="Mes\MesOperationResult.cs" />
+    <Compile Include="Mes\MesResultKind.cs" />
+    <Compile Include="Mes\UploadState.cs" />
+    <Compile Include="Mes\UploadStateMachine.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,30 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioSamples.Core", "Core\PortfolioSamples.Core.csproj", "{3AFA172B-2026-4450-8110-131422334455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioSamples.Demo", "Demo\PortfolioSamples.Demo.csproj", "{3AFA172B-2026-4450-8110-131422334456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortfolioSamples.Tests", "Tests\PortfolioSamples.Tests.csproj", "{3AFA172B-2026-4450-8110-131422334457}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AFA172B-2026-4450-8110-131422334455}.Debug|Any CPU.ActiveCfg = Debug|AnyCPU
+		{3AFA172B-2026-4450-8110-131422334455}.Debug|Any CPU.Build.0 = Debug|AnyCPU
+		{3AFA172B-2026-4450-8110-131422334455}.Release|Any CPU.ActiveCfg = Release|AnyCPU
+		{3AFA172B-2026-4450-8110-131422334455}.Release|Any CPU.Build.0 = Release|AnyCPU
+		{3AFA172B-2026-4450-8110-131422334456}.Debug|Any CPU.ActiveCfg = Debug|AnyCPU
+		{3AFA172B-2026-4450-8110-131422334456}.Debug|Any CPU.Build.0 = Debug|AnyCPU
+		{3AFA172B-2026-4450-8110-131422334456}.Release|Any CPU.ActiveCfg = Release|AnyCPU
+		{3AFA172B-2026-4450-8110-131422334456}.Release|Any CPU.Build.0 = Release|AnyCPU
+		{3AFA172B-2026-4450-8110-131422334457}.Debug|Any CPU.ActiveCfg = Debug|AnyCPU
+		{3AFA172B-2026-4450-8110-131422334457}.Debug|Any CPU.Build.0 = Debug|AnyCPU
+		{3AFA172B-2026-4450-8110-131422334457}.Release|Any CPU.ActiveCfg = Release|AnyCPU
+		{3AFA172B-2026-4450-8110-131422334457}.Release|Any CPU.Build.0 = Release|AnyCPU
+	EndGlobalSection
+EndGlobal

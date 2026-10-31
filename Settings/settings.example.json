@@ -1,0 +1,20 @@
+{
+  "OutputDirectory": "Results",
+  "FailureThreshold": 3,
+  "OpenSeconds": 30,
+  "MaximumLogKilobytes": 256,
+  "CurrencyMappings": [
+    {
+      "Code": "USD",
+      "Value": "USD_DEMO"
+    },
+    {
+      "Code": "JPY",
+      "Value": "JPY_DEMO"
+    },
+    {
+      "Code": "CNY",
+      "Value": "CNY_DEMO"
+    }
+  ]
+}

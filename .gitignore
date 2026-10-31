@@ -1,0 +1,17 @@
+.git/
+.vs/
+**/bin/
+**/obj/
+*.exe
+*.dll
+*.pdb
+*.user
+*.suo
+**/settings.local.json
+**/*.local.*
+.env
+.env.*
+!.env.example
+Logs/
+Results/
+TestResults/
